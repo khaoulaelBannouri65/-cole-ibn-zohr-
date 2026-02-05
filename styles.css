@@ -2035,9 +2035,12 @@ a {
     padding: 0.6rem 0;
     color: var(--gray-700);
     font-size: 0.9rem;
-    text-align: left;
 }
 
+.form-includes li span {
+    flex: 1;
+    text-align: left;
+}
 
 .form-includes svg {
     width: 18px;
@@ -2045,6 +2048,22 @@ a {
     color: var(--primary-green);
     flex-shrink: 0;
     stroke-width: 2.5;
+}
+
+[dir="rtl"] .form-includes li {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+[dir="rtl"] .form-includes li svg {
+    order: 2;
+    margin-left: 0.75rem;
+    margin-right: 0;
+}
+
+[dir="rtl"] .form-includes li span {
+    order: 1;
+    text-align: right;
 }
 
 /* Form buttons  */
