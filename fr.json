@@ -210,7 +210,7 @@
       }
     ],
     "forms": {
-      "titlze": "Formulaires d'inscription",
+      "title": "Formulaires d'inscription",
       "subtitle": "Choisissez le formulaire adapté à votre formation",
       "general": {
         "title": "Formulaire de pré-inscription",
